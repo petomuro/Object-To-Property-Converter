@@ -1,0 +1,26 @@
+{
+  "global": {
+    "filters": {
+      "startsWith": "Starts with",
+      "contains": "Contains",
+      "notContains": "Not contains",
+      "endsWith": "Ends with",
+      "equals": "Equals",
+      "notEquals": "Not equals",
+      "lessThan": "Less than",
+      "lessThanOrEqual": "Less than or equal",
+      "greaterThan": "Greater than",
+      "greaterThanOrEqual": "Greater than or equal",
+      "dateIs": "Date is",
+      "dateIsNot": "Date is not",
+      "dateBefore": "Date is before",
+      "dateAfter": "Date is after",
+      "clear": "Clear",
+      "apply": "Apply",
+      "matchAll": "Match All",
+      "matchAny": "Match Any",
+      "addRule": "Add Rule",
+      "removeRule": "Remove Rule"
+    }
+  }
+}
