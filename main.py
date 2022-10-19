@@ -32,8 +32,6 @@ def replace_camel_case(s):
         # Check for uppercase character
         if ch.isupper():
             return False, s[0:index] + ',' + s[index].lower() + s[index + 1:]
-        else:
-            continue
 
     return True, s
 
@@ -83,7 +81,7 @@ def export_to_file(processed_objects):
 if __name__ == "__main__":
     with open('object.json') as f:
         parsed_object = json.load(f)
-        
+
     processed_objects = []
 
     for pair in process(parsed_object):
